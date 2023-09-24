@@ -1,3 +1,4 @@
+
 # OUI-lookup
 OUI stands for "Organizationally Unique Identifier." It's a unique identifier assigned to a manufacturer or organization that produces networking or network-related equipment. OUIs are used primarily in the context of MAC (Media Access Control) addresses, which are unique hardware addresses assigned to network devices like computers, routers, and network cards.
 
@@ -36,6 +37,6 @@ The return format is the following JSON object:
     "organization":  "organization name"
     };
 
-**It will return `null` is there is no record found.**
+**It will return `null` if there is no record found.**
 
-
+You can check some examples in the **functions** folder. Please note, you should load the **oui_macs.json** JSON object first to be able to use it.
